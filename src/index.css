@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  text-align: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  font-size: 5rem;
+  background-color: hsl(219, 79%, 66%);
+  border: none;
+  border-radius: 50px;
+  margin: 40px 10px;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(219, 79%, 55%);
+}
+
+#playerDisplay,#playerScore{
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+#computerDisplay,#computerScore{
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#resultDisplay{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.greentext{
+  color: hsl(90, 100%, 50%);
+}
+
+.redtext{
+  color: hsl(348, 83%, 47%);
 }
